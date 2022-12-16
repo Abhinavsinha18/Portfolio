@@ -35,6 +35,32 @@ function myfunc(){
 	setTimeout(()=>{
 		preloader.style.display="none";
 
-	},2500)
+	},1000)
 }
 
+
+
+function mouse(){
+	let img = document.getElementById("hii");
+	let h22 = document.getElementById("h22");
+	let anc = document.getElementById("anc");
+	img.src = "img/hiii2.gif"
+	h22.innerText = "Resume📄"
+	// h22.style.padding = "5px";
+	// h22.style.border = "1px solid black";
+	anc.href= "https://drive.google.com/file/d/1uGq6ZSoOyi5-qKXYei50zM0wmqJCqR37/view?usp=drivesdk"
+	h22.style.background = "#30ff00";
+	h22.style.borderRadius = "10px";
+	
+
+}
+
+function leave(){
+	let img = document.getElementById("hii");
+	let h22 = document.getElementById("h22");
+	img.src = "img/Untitled-8-720p-unscreen.gif"
+	h22.innerText = "Hii 👋"
+	h22.style.padding = "5px";
+	h22.style.border = "none";
+	h22.style.background = "none";
+}
