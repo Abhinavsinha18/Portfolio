@@ -32,10 +32,7 @@ sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:200, or
 
 var preloader = document.getElementById("loading");
 function myfunc(){
-	setTimeout(()=>{
 		preloader.style.display="none";
-
-	},1000)
 }
 
 
@@ -48,7 +45,7 @@ function mouse(){
 	h22.innerText = "Resume📄"
 	// h22.style.padding = "5px";
 	// h22.style.border = "1px solid black";
-	anc.href= "https://drive.google.com/file/d/1uGq6ZSoOyi5-qKXYei50zM0wmqJCqR37/view?usp=drivesdk"
+	anc.href= "https://drive.google.com/file/d/1wyCRheXGUvsypHoKTaEAKLPDX8hxSHqr/view?usp=drivesdk"
 	h22.style.background = "#30ff00";
 	h22.style.borderRadius = "10px";
 	

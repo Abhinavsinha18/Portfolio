@@ -647,6 +647,18 @@ padding: 5px;
 	.imggif{
 		display: none;
 	}
+	.top-btn{
+		display: inline-block;
+		padding: 9px 30px;
+		background: transparent;
+		border: 2px solid var(--main-color);
+		border-radius: 30px;
+		color: var(--text-color);
+		letter-spacing: 1px;
+		font-size: var(--p-font);
+		font-weight: 500;
+		transition: ease .60s;
+	}
 }
 
 
@@ -718,4 +730,20 @@ padding: 5px;
 	/* border: 2px solid black; */
 	color: blue;
 	background-color: white;
+}
+
+@media (max-width: 400px){
+
+	.top-btn{
+		display: inline-block;
+		padding: 9px 20px;
+		background: transparent;
+		border: 2px solid var(--main-color);
+		border-radius: 30px;
+		color: var(--text-color);
+		letter-spacing: 1px;
+		font-size: var(--p-font);
+		font-weight: 500;
+		transition: ease .60s;
+	}
 }
